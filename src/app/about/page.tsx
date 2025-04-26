@@ -1,6 +1,7 @@
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { UserGroupIcon, TrophyIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 const stats = [
   { name: 'Years of Experience', value: '25+' },
@@ -133,9 +134,12 @@ export default function AboutPage() {
               <li key={person.name}>
                 <div className="flex flex-col gap-y-3 border border-gray-200 rounded-2xl p-6">
                   <div className="relative h-48 w-48 mx-auto">
-                    <div className="h-full w-full rounded-full bg-gray-100 flex items-center justify-center text-gray-500">
-                      {person.name[0]}
-                    </div>
+                    <Image
+                      src={person.image}
+                      alt={person.name}
+                      fill
+                      className="rounded-full object-cover"
+                    />
                   </div>
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900 text-center">{person.name}</h3>
                   <p className="text-base leading-7 text-blue-600 text-center">{person.role}</p>
