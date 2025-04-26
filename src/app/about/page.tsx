@@ -31,19 +31,19 @@ const team = [
   {
     name: 'Michel MBABAZI',
     role: 'CEO & Founder',
-    image: '/images/team/michel-mbabazi.jpg',
+    image: '/images/Michel Mbabazi.jpg',
     bio: '25+ years of construction industry experience, leading innovative construction solutions',
   },
   {
     name: 'Evelyne K. UMUHOZA',
     role: 'General Manager',
-    image: '/images/team/evelyne-umuhoza.jpg',
+    image: '/images/Evelyne K. UMUHOZA.jpg',
     bio: 'Expert in operational excellence and sustainable construction practices',
   },
   {
     name: 'Miguel T. MBABAZI',
     role: 'Chief Technology Officer',
-    image: '/images/team/miguel-mbabazi.jpg',
+    image: '/images/Miguel T. MBABAZI.jpg',
     bio: 'Pioneering digital transformation in construction technology',
   },
 ];
