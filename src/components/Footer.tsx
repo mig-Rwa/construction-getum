@@ -12,17 +12,17 @@ const navigation = {
   contact: [
     {
       name: 'Address',
-      value: '123 Construction Street, Building City, BC 12345',
+      value: 'KG 123 Street, Kigali, Rwanda',
       icon: MapPinIcon,
     },
     {
       name: 'Phone',
-      value: '(123) 456-7890',
+      value: '+250 799 301 363',
       icon: PhoneIcon,
     },
     {
       name: 'Email',
-      value: 'info@getumconstruction.com',
+      value: 'mbabamik1900@gmail.com',
       icon: EnvelopeIcon,
     },
   ],
@@ -44,7 +44,7 @@ export default function Footer() {
             <p className="text-sm leading-6 text-gray-300">
               Building excellence, one project at a time. Your trusted partner in construction and renovation.
             </p>
-            <div className="flex space-x-6">
+            <div className="flex flex-col space-y-4">
               {navigation.contact.map((item) => (
                 <div key={item.name} className="flex items-center space-x-2 text-gray-300">
                   <item.icon className="h-5 w-5 text-blue-400" aria-hidden="true" />
