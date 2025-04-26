@@ -29,22 +29,22 @@ const values = [
 
 const team = [
   {
-    name: 'John Smith',
+    name: 'Michel MBABAZI',
     role: 'CEO & Founder',
-    image: '/images/team/john-smith.jpg',
-    bio: '25+ years of construction industry experience',
+    image: '/images/team/michel-mbabazi.jpg',
+    bio: '25+ years of construction industry experience, leading innovative construction solutions',
   },
   {
-    name: 'Sarah Johnson',
-    role: 'Project Director',
-    image: '/images/team/sarah-johnson.jpg',
-    bio: 'Expert in sustainable construction practices',
+    name: 'Evelyne K. UMUHOZA',
+    role: 'General Manager',
+    image: '/images/team/evelyne-umuhoza.jpg',
+    bio: 'Expert in operational excellence and sustainable construction practices',
   },
   {
-    name: 'Mike Williams',
-    role: 'Lead Architect',
-    image: '/images/team/mike-williams.jpg',
-    bio: 'Award-winning architectural designer',
+    name: 'Miguel T. MBABAZI',
+    role: 'Chief Technology Officer',
+    image: '/images/team/miguel-mbabazi.jpg',
+    bio: 'Pioneering digital transformation in construction technology',
   },
 ];
 
