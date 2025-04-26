@@ -3,26 +3,32 @@
 import { useState } from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { EnvelopeIcon, PhoneIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, PhoneIcon, MapPinIcon, ClockIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
 
 const officeLocations = [
   {
-    city: 'Main Office',
-    address: '123 Construction Street',
-    region: 'Building City, BC 12345',
-    country: 'United States',
-    phone: '(123) 456-7890',
-    email: 'info@getumconstruction.com',
-    hours: 'Mon-Fri: 8:00 AM - 6:00 PM'
+    city: 'Main Office - Kigali',
+    address: 'KG 123 Street',
+    region: 'Kigali, Rwanda',
+    country: 'Rwanda',
+    phone: '+250 799 301 363',
+    email: 'mbabamik1900@gmail.com',
+    hours: 'Mon-Fri: 8:00 AM - 6:00 PM',
+    social: {
+      instagram: 'getum_supply'
+    }
   },
   {
-    city: 'Project Office',
-    address: '456 Development Avenue',
-    region: 'Construction Town, CT 67890',
-    country: 'United States',
-    phone: '(123) 456-7891',
-    email: 'projects@getumconstruction.com',
-    hours: 'Mon-Fri: 9:00 AM - 5:00 PM'
+    city: 'Project Office - Kigali',
+    address: 'KG 456 Avenue',
+    region: 'Kigali, Rwanda',
+    country: 'Rwanda',
+    phone: '+250 788 559 008',
+    email: 'eumuhoza@gmail.com',
+    hours: 'Mon-Fri: 9:00 AM - 5:00 PM',
+    social: {
+      instagram: 'getum_supply'
+    }
   }
 ];
 
@@ -73,6 +79,7 @@ export default function ContactPage() {
                         <div>
                           <p>{location.address}</p>
                           <p>{location.region}</p>
+                          <p>{location.country}</p>
                         </div>
                       </div>
                       <div className="flex gap-x-4">
@@ -86,6 +93,10 @@ export default function ContactPage() {
                       <div className="flex gap-x-4">
                         <ClockIcon className="h-6 w-6 flex-none text-gray-400" aria-hidden="true" />
                         <p>{location.hours}</p>
+                      </div>
+                      <div className="flex gap-x-4">
+                        <GlobeAltIcon className="h-6 w-6 flex-none text-gray-400" aria-hidden="true" />
+                        <p>Instagram: @{location.social.instagram}</p>
                       </div>
                     </div>
                   </div>
@@ -163,6 +174,8 @@ export default function ContactPage() {
                       <option value="residential">Residential Construction</option>
                       <option value="commercial">Commercial Project</option>
                       <option value="renovation">Renovation</option>
+                      <option value="stoneCrushing">Stone Crushing Project</option>
+                      <option value="aggregateSupply">Aggregate Supply</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
