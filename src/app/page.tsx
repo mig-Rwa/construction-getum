@@ -64,12 +64,12 @@ export default function Home() {
               </a>
               <a href="/projects" className="text-sm font-semibold leading-6 text-gray-900">
                 View Our Work <span aria-hidden="true">→</span>
-              </a>
-            </div>
+          </a>
+        </div>
           </div>
           <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
             <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-              <Image
+          <Image
                 src="/images/hero-bg.jpg"
                 alt="Construction site showcase"
                 width={2432}
@@ -131,7 +131,7 @@ export default function Home() {
             {projects.map((project) => (
               <article key={project.name} className="flex flex-col items-start">
                 <div className="relative w-full">
-                  <Image
+          <Image
                     src={project.image}
                     alt={project.name}
                     width={800}
@@ -168,7 +168,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
+    </div>
 
       <Footer />
     </main>
