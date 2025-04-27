@@ -26,19 +26,19 @@ const products = [
     name: 'Stone Base for Roads',
     description: 'Heavy-duty crushed stone for highway and road project foundations',
     category: 'Road Construction',
-    image: '/images/hero-bg.jpg',
+    image: '/images/field.jpg',
   },
   {
     name: 'Construction Aggregates',
     description: 'Graded aggregates (8/16 mm and 16/25 mm) for concrete mixing',
     category: 'Building Materials',
-    image: '/images/hero-bg.jpg',
+    image: '/images/aggregate.jpg',
   },
   {
     name: 'Concrete Sand',
     description: 'Fine-grade sand for bricks, blocks, and precast products',
     category: 'Construction Materials',
-    image: '/images/hero-bg.jpg',
+    image: '/images/quarry-construction.jpg',
   },
 ];
 
