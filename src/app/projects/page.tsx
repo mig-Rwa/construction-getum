@@ -7,7 +7,7 @@ const projects = [
     name: 'Nyagatare Quarry Development',
     description: 'State-of-the-art quarry operation featuring advanced extraction techniques and environmental protection measures. This project demonstrates our commitment to sustainable resource management.',
     category: 'Quarry Operations',
-    image: '/images/quarry-operations.jpg',
+    image: '/images/hero-bg.jpg',
     details: [
       'Modern extraction equipment',
       'Environmental monitoring systems',
@@ -19,7 +19,7 @@ const projects = [
     name: 'Aggregate Processing Plant',
     description: 'Advanced crushing and screening facility capable of producing multiple aggregate grades. Features automated quality control and efficient material handling systems.',
     category: 'Processing Facility',
-    image: '/images/processing-plant.jpg',
+    image: '/images/hero-bg.jpg',
     details: [
       'Multi-stage crushing system',
       'Automated screening',
@@ -31,7 +31,7 @@ const projects = [
     name: 'Road Base Supply Project',
     description: 'Large-scale production and supply of high-quality road base materials for major infrastructure projects, showcasing our capability to meet demanding specifications.',
     category: 'Material Supply',
-    image: '/images/road-base-supply.jpg',
+    image: '/images/hero-bg.jpg',
     details: [
       'Strict quality control',
       'High-volume production',
