@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="space-y-8">
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/logo-getum"
+                src="/images/logo-getum.png"
                 alt="Getum Supply Logo"
                 width={180}
                 height={60}

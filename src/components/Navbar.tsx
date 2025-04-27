@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center">
             <Image
-              src="/images/logo-getum"
+              src="/images/logo-getum.png"
               alt="Getum Supply Logo"
               width={150}
               height={50}
@@ -68,7 +68,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5 flex items-center">
               <Image
-                src="/images/logo-getum"
+                src="/images/logo-getum.png"
                 alt="Getum Supply Logo"
                 width={150}
                 height={50}
