@@ -3,13 +3,6 @@ import Footer from '../../components/Footer';
 import { UserGroupIcon, TrophyIcon, BuildingOfficeIcon, TruckIcon, WrenchScrewdriverIcon, ClockIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
-const stats = [
-  { name: 'Years of Experience', value: '10+' },
-  { name: 'Projects Completed', value: '100+' },
-  { name: 'Team Members', value: '50+' },
-  { name: 'Client Satisfaction', value: '98%' },
-];
-
 const divisions = [
   {
     name: 'GETUM Supply Ltd – Quarry Extraction and Aggregate Production',
