@@ -5,10 +5,10 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Getum Construction - Building Dreams into Reality",
-  description: "Professional construction services for residential and commercial projects. Quality craftsmanship and reliable service.",
+  title: "GETUM Supply - Building Dreams into Reality",
+  description: "GETUM Supply brings your vision to life with expert craftsmanship, quality materials, and unparalleled service.",
   keywords: "construction, building, renovation, commercial construction, residential construction",
-  authors: [{ name: "Getum Construction" }],
+  authors: [{ name: "GETUM Supply" }],
   viewport: "width=device-width, initial-scale=1",
 };
 

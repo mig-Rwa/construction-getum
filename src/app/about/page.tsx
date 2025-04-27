@@ -81,7 +81,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              At GETUM Supplies and Construction, we are dedicated to delivering high-quality materials and exceptional construction services. With expertise in quarry extraction, aggregate production, and infrastructure development, we support Rwanda&apos;s growth through reliable and sustainable solutions.
+              At GETUM Supply, we are dedicated to delivering high-quality materials and exceptional construction services. With expertise in quarry extraction, aggregate production, and infrastructure development, we support Rwanda&apos;s growth through reliable and sustainable solutions.
             </p>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function AboutPage() {
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-blue-600">Why Choose GETUM?</h2>
+            <h2 className="text-base font-semibold leading-7 text-blue-600">Why Choose GETUM Supply?</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Excellence in Every Aspect
             </p>

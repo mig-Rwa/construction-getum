@@ -101,7 +101,7 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; {new Date().getFullYear()} Getum Construction. All rights reserved.
+            &copy; {new Date().getFullYear()} GETUM Supply. All rights reserved.
           </p>
         </div>
       </div>

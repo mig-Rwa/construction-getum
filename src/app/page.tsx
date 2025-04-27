@@ -53,7 +53,7 @@ export default function Home() {
               Building Dreams into Reality
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Getum Construction brings your vision to life with expert craftsmanship, quality materials, and unparalleled service. From residential to commercial projects, we deliver excellence in every build.
+              GETUM Supply brings your vision to life with expert craftsmanship, quality materials, and unparalleled service. From residential to commercial projects, we deliver excellence in every build.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
