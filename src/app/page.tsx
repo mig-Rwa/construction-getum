@@ -1,44 +1,44 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-import { BuildingOfficeIcon, HomeIcon, WrenchScrewdriverIcon } from '@heroicons/react/24/outline';
+import { TruckIcon, BeakerIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline';
 
 const services = [
   {
-    name: 'Residential Construction',
-    description: 'Custom homes, renovations, and additions designed to meet your family\'s needs and lifestyle.',
-    icon: HomeIcon,
+    name: 'Material Extraction',
+    description: 'Expert quarry extraction of raw stone and mineral resources using environmentally responsible practices.',
+    icon: TruckIcon,
   },
   {
-    name: 'Commercial Projects',
-    description: 'Office buildings, retail spaces, and industrial facilities built to commercial standards.',
+    name: 'Processing & Production',
+    description: 'Advanced crushing and processing to create various grades of aggregates for specific construction needs.',
     icon: BuildingOfficeIcon,
   },
   {
-    name: 'Renovation & Remodeling',
-    description: 'Transform your existing space with our expert renovation and remodeling services.',
-    icon: WrenchScrewdriverIcon,
+    name: 'Quality Control',
+    description: 'Rigorous testing and quality assurance to meet industry specifications for strength and durability.',
+    icon: BeakerIcon,
   },
 ];
 
-const projects = [
+const products = [
   {
-    name: 'Modern Family Home',
-    description: 'A contemporary 4-bedroom family home with sustainable features',
-    category: 'Residential',
-    image: '/images/modern-family home.jpeg',
+    name: 'Stone Base for Roads',
+    description: 'Heavy-duty crushed stone for highway and road project foundations',
+    category: 'Road Construction',
+    image: '/images/stone-base.jpg',
   },
   {
-    name: 'Office Complex',
-    description: 'A state-of-the-art office building with modern amenities',
-    category: 'Commercial',
-    image: '/images/office-complex.jpeg',
+    name: 'Construction Aggregates',
+    description: 'Graded aggregates (8/16 mm and 16/25 mm) for concrete mixing',
+    category: 'Building Materials',
+    image: '/images/aggregates.jpg',
   },
   {
-    name: 'Historic Renovation',
-    description: 'Restoration of a century-old building while maintaining its character',
-    category: 'Renovation',
-    image: '/images/historic-renovations.jpeg',
+    name: 'Concrete Sand',
+    description: 'Fine-grade sand for bricks, blocks, and precast products',
+    category: 'Construction Materials',
+    image: '/images/concrete-sand.jpg',
   },
 ];
 
@@ -50,28 +50,28 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
             <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Building Dreams into Reality
+              Quality Aggregates for Construction Excellence
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              GETUM Supply brings your vision to life with expert craftsmanship, quality materials, and unparalleled service. From residential to commercial projects, we deliver excellence in every build.
+              GETUM Supply specializes in quarry extraction and aggregate production, delivering high-quality construction materials through advanced processing and rigorous quality control. We provide essential materials for infrastructure development across Rwanda.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="/contact"
                 className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
-                Get Started
+                Get a Quote
               </a>
-              <a href="/projects" className="text-sm font-semibold leading-6 text-gray-900">
-                View Our Work <span aria-hidden="true">→</span>
-          </a>
-        </div>
+              <a href="/products" className="text-sm font-semibold leading-6 text-gray-900">
+                View Our Products <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </div>
           <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
             <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-          <Image
-                src="/images/hero-bg.jpg"
-                alt="Construction site showcase"
+              <Image
+                src="/images/quarry-hero.jpg"
+                alt="Quarry operations showcase"
                 width={2432}
                 height={1442}
                 className="w-[76rem] rounded-md object-cover shadow-2xl"
@@ -87,10 +87,10 @@ export default function Home() {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">Our Services</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Everything you need for your construction project
+              Advanced Extraction and Processing
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We offer a comprehensive range of construction services to meet all your building needs, from initial design to final completion.
+              From quarry extraction to final processing, we maintain the highest standards of quality control to deliver materials that meet industry specifications.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -119,21 +119,21 @@ export default function Home() {
       <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-blue-600">Our Work</h2>
+            <h2 className="text-base font-semibold leading-7 text-blue-600">Our Products</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Featured Projects
+              Quality Materials for Every Project
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Take a look at some of our recent projects that showcase our expertise and commitment to quality.
+              We offer a comprehensive range of construction materials, from road base to fine aggregates, all produced to meet strict quality standards.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {projects.map((project) => (
-              <article key={project.name} className="flex flex-col items-start">
+            {products.map((product) => (
+              <article key={product.name} className="flex flex-col items-start">
                 <div className="relative w-full">
-          <Image
-                    src={project.image}
-                    alt={project.name}
+                  <Image
+                    src={product.image}
+                    alt={product.name}
                     width={800}
                     height={600}
                     className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
@@ -143,17 +143,17 @@ export default function Home() {
                 <div className="max-w-xl">
                   <div className="mt-8 flex items-center gap-x-4 text-xs">
                     <time dateTime="2024" className="text-gray-500">
-                      {project.category}
+                      {product.category}
                     </time>
                   </div>
                   <div className="group relative">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <a href="/projects">
+                      <a href="/products">
                         <span className="absolute inset-0" />
-                        {project.name}
+                        {product.name}
                       </a>
                     </h3>
-                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{project.description}</p>
+                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{product.description}</p>
                   </div>
                 </div>
               </article>
@@ -161,14 +161,14 @@ export default function Home() {
           </div>
           <div className="mt-16 flex justify-center">
             <a
-              href="/projects"
+              href="/products"
               className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
-              View All Projects
-        </a>
+              View All Products
+            </a>
           </div>
         </div>
-    </div>
+      </div>
 
       <Footer />
     </main>
