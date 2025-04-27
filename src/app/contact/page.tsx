@@ -11,7 +11,7 @@ const officeLocations = [
     address: 'KG 123 Street',
     region: 'Kigali, Rwanda',
     country: 'Rwanda',
-    phone: '+250 799 301 363',
+    phone: '+250788301363',
     email: 'mbabamik1900@gmail.com',
     hours: 'Mon-Fri: 8:00 AM - 6:00 PM',
     social: {
@@ -23,7 +23,7 @@ const officeLocations = [
     address: 'KG 456 Avenue',
     region: 'Kigali, Rwanda',
     country: 'Rwanda',
-    phone: '+250 788 559 008',
+    phone: '+250788301363',
     email: 'eumuhoza@gmail.com',
     hours: 'Mon-Fri: 9:00 AM - 5:00 PM',
     social: {
@@ -31,12 +31,6 @@ const officeLocations = [
     }
   }
 ];
-
-const contactInfo = {
-  address: 'KG 9 Ave, Kigali, Rwanda',
-  email: 'info@getum.rw',
-  phone: '+250788301363',
-};
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
