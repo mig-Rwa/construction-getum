@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
 
 const navigation = {
@@ -39,8 +40,14 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-white">Getum</span>
-              <span className="text-2xl font-bold text-blue-400">Construction</span>
+              <Image
+                src="/images/logo-getum"
+                alt="Getum Supply Logo"
+                width={180}
+                height={60}
+                className="h-16 w-auto bg-white rounded-lg p-2"
+                priority
+              />
             </Link>
             <p className="text-sm leading-6 text-gray-300">
               Building excellence, one project at a time. Your trusted partner in construction and renovation.
