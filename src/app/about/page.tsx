@@ -1,51 +1,48 @@
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { UserGroupIcon, TrophyIcon, BuildingOfficeIcon, TruckIcon, WrenchScrewdriverIcon, ClockIcon } from '@heroicons/react/24/outline';
+import { TruckIcon, BeakerIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 
 const divisions = [
   {
-    name: 'GETUM Supply Ltd – Quarry Extraction and Aggregate Production',
-    description: 'We extract and crush top-grade materials to meet various construction needs. Our products include:',
+    name: 'Material Extraction',
+    description: 'We carefully extract raw stone and mineral resources from designated quarry sites using environmentally responsible practices.',
     icon: TruckIcon,
     products: [
-      'Stone base for road construction',
-      'Aggregates (sizes 8/16 mm and 16/25 mm) for building construction',
-      'Materials for bridge construction',
-      'Concrete sand for bricks and blocks'
+      'Advanced extraction techniques',
+      'Environmental impact management',
+      'Resource optimization',
+      'Site rehabilitation planning'
     ]
   },
   {
-    name: 'GETUM Construction – Building and Infrastructure Projects',
-    description: 'We build strong foundations for communities and businesses by offering:',
+    name: 'Processing and Production',
+    description: 'Our modern crushing and processing facilities transform raw materials into high-quality construction aggregates.',
     icon: BuildingOfficeIcon,
     products: [
-      'Residential and commercial building construction',
-      'Infrastructure development (roads, bridges, drainage systems)'
+      'Crushing and screening',
+      'Size grading and classification',
+      'Material washing and cleaning',
+      'Product stockpiling and management'
     ]
   }
 ];
 
 const whyChooseUs = [
   {
-    name: 'High-quality Products',
-    description: 'High-quality and certified products that meet industry standards for strength and durability.',
-    icon: TrophyIcon,
+    name: 'Quality Products',
+    description: 'Our materials undergo rigorous testing to meet industry standards for strength and durability.',
+    icon: BeakerIcon,
   },
   {
-    name: 'Expert Team',
-    description: 'Experienced and professional team combining technical expertise with commitment to quality.',
-    icon: UserGroupIcon,
+    name: 'Modern Equipment',
+    description: 'State-of-the-art crushing and processing equipment for consistent product quality.',
+    icon: TruckIcon,
   },
   {
-    name: 'Reliable Service',
-    description: 'On-time delivery and reliable service you can count on.',
-    icon: ClockIcon,
-  },
-  {
-    name: 'Sustainable Growth',
-    description: 'Commitment to sustainability and community growth through our operations.',
-    icon: WrenchScrewdriverIcon,
+    name: 'Environmental Focus',
+    description: 'Commitment to sustainable quarrying practices and environmental stewardship.',
+    icon: BuildingOfficeIcon,
   }
 ];
 
@@ -81,7 +78,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              At GETUM Supply, we are dedicated to delivering high-quality materials and exceptional construction services. With expertise in quarry extraction, aggregate production, and infrastructure development, we support Rwanda&apos;s growth through reliable and sustainable solutions.
+              At GETUM Supply, we are dedicated to delivering high-quality construction materials through expert quarry extraction and aggregate production. With advanced processing capabilities and strict quality control, we support Rwanda&apos;s infrastructure development with reliable and sustainable material solutions.
             </p>
           </div>
         </div>
@@ -93,10 +90,10 @@ export default function AboutPage() {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">Our Vision</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Building Rwanda&apos;s Future
+              Leading in Quality Aggregates
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              To be a trusted leader in supplying top-quality construction materials and delivering sustainable infrastructure projects across Rwanda and beyond.
+              To be Rwanda&apos;s trusted leader in supplying top-quality construction materials through sustainable quarrying and advanced processing techniques.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24">
@@ -104,28 +101,28 @@ export default function AboutPage() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="h-6 w-6 mt-1 flex items-center justify-center rounded-full bg-blue-600 text-white">•</span>
-                <span className="ml-4 text-lg text-gray-600">To provide reliable, high-performance materials and construction services</span>
+                <span className="ml-4 text-lg text-gray-600">To provide high-quality construction materials that meet industry standards</span>
               </li>
               <li className="flex items-start">
                 <span className="h-6 w-6 mt-1 flex items-center justify-center rounded-full bg-blue-600 text-white">•</span>
-                <span className="ml-4 text-lg text-gray-600">To contribute to Rwanda&apos;s development through quality, innovation, and integrity</span>
+                <span className="ml-4 text-lg text-gray-600">To implement sustainable quarrying practices that protect the environment</span>
               </li>
               <li className="flex items-start">
                 <span className="h-6 w-6 mt-1 flex items-center justify-center rounded-full bg-blue-600 text-white">•</span>
-                <span className="ml-4 text-lg text-gray-600">To create job opportunities and empower local communities</span>
+                <span className="ml-4 text-lg text-gray-600">To contribute to Rwanda&apos;s infrastructure development through reliable material supply</span>
               </li>
             </ul>
           </div>
         </div>
       </div>
 
-      {/* Divisions Section */}
+      {/* Operations Section */}
       <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-blue-600">Our Divisions</h2>
+            <h2 className="text-base font-semibold leading-7 text-blue-600">Our Operations</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Comprehensive Construction Solutions
+              Advanced Processing Capabilities
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -162,11 +159,11 @@ export default function AboutPage() {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">Why Choose GETUM Supply?</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Excellence in Every Aspect
+              Excellence in Material Production
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
               {whyChooseUs.map((value) => (
                 <div key={value.name} className="flex flex-col">
                   <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
