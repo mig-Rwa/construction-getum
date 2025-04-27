@@ -4,39 +4,39 @@ import Image from 'next/image';
 
 const projects = [
   {
-    name: 'Modern Family Home',
-    description: 'A contemporary 4-bedroom family home with sustainable features. This project showcases our commitment to modern design and eco-friendly construction practices.',
-    category: 'Residential',
-    image: '/images/modern-family home.jpeg',
+    name: 'Nyagatare Quarry Development',
+    description: 'State-of-the-art quarry operation featuring advanced extraction techniques and environmental protection measures. This project demonstrates our commitment to sustainable resource management.',
+    category: 'Quarry Operations',
+    image: '/images/quarry-operations.jpg',
     details: [
-      'Solar-ready roofing',
-      'Smart home integration',
-      'Energy-efficient windows',
-      'Sustainable materials'
+      'Modern extraction equipment',
+      'Environmental monitoring systems',
+      'Dust suppression technology',
+      'Site rehabilitation planning'
     ]
   },
   {
-    name: 'Office Complex',
-    description: 'A state-of-the-art office building designed for the modern workforce. Features open-concept spaces and cutting-edge amenities.',
-    category: 'Commercial',
-    image: '/images/office-complex.jpeg',
+    name: 'Aggregate Processing Plant',
+    description: 'Advanced crushing and screening facility capable of producing multiple aggregate grades. Features automated quality control and efficient material handling systems.',
+    category: 'Processing Facility',
+    image: '/images/processing-plant.jpg',
     details: [
-      'Open floor plan',
-      'Meeting spaces',
-      'Break areas',
-      'Modern utilities'
+      'Multi-stage crushing system',
+      'Automated screening',
+      'Quality control lab',
+      'Material stockpile management'
     ]
   },
   {
-    name: 'Historic Renovation',
-    description: 'Careful restoration of a century-old building, preserving its historic character while adding modern amenities and structural improvements.',
-    category: 'Renovation',
-    image: '/images/historic-renovations.jpeg',
+    name: 'Road Base Supply Project',
+    description: 'Large-scale production and supply of high-quality road base materials for major infrastructure projects, showcasing our capability to meet demanding specifications.',
+    category: 'Material Supply',
+    image: '/images/road-base-supply.jpg',
     details: [
-      'Original features preserved',
-      'Modern updates',
-      'Structural reinforcement',
-      'Period-accurate details'
+      'Strict quality control',
+      'High-volume production',
+      'On-time delivery',
+      'Material certification'
     ]
   }
 ];
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Projects</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Explore our portfolio of successful construction projects and transformations. Each project represents our commitment to quality and attention to detail.
+              Explore our portfolio of quarrying operations and aggregate production facilities. Each project showcases our commitment to quality materials and sustainable practices.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
