@@ -32,6 +32,12 @@ const officeLocations = [
   }
 ];
 
+const contactInfo = {
+  address: 'KG 9 Ave, Kigali, Rwanda',
+  email: 'info@getum.rw',
+  phone: '+250788301363',
+};
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',

@@ -17,7 +17,8 @@ const navigation = {
     },
     {
       name: 'Phone',
-      value: '+250 799 301 363',
+      value: '+250788301363',
+      href: 'tel:+250788301363',
       icon: PhoneIcon,
     },
     {
