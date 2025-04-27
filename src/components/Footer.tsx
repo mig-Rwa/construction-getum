@@ -39,15 +39,16 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-3 bg-white rounded-lg p-3">
               <Image
                 src="/images/logo-getum.png"
                 alt="Getum Supply Logo"
-                width={180}
-                height={60}
-                className="h-16 w-auto bg-white rounded-lg p-2"
+                width={200}
+                height={67}
+                className="h-16 w-auto"
                 priority
               />
+              <span className="text-2xl font-bold text-gray-900">GETUM Supply</span>
             </Link>
             <p className="text-sm leading-6 text-gray-300">
               Building excellence, one project at a time. Your trusted partner in construction and renovation.
