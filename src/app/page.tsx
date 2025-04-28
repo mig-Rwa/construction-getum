@@ -132,6 +132,7 @@ export default function Home() {
               <article key={product.name} className="flex flex-col items-start">
                 <div className="relative w-full">
                   <Image
+                    key={`product-image-${product.name}`}
                     src={product.image}
                     alt={product.name}
                     width={800}
